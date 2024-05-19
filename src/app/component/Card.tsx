@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Icon } from "./icon";
+import { SvgIcon } from "../svg";
 
 type CardProps = {
   scr: string;
@@ -49,7 +49,7 @@ const Card = ({
           <div className="p-6 mobile:px-12">
             <div className="flex flex-row justify-between items-center bg-neutral-veryPaleBlue p-4 rounded-xl">
               <div className="flex flex-row">
-                <Icon />
+                <SvgIcon />
                 <div className="ml-5">
                   <h2 className="text-base font-extrabold">{name_order}</h2>
                   <p className="text-base text-neutral-desaturatedBlue">
